@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/base_layout_title" />
+
+    <LinearLayout
+        android:id="@+id/layout_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="52dip"
+        android:layout_marginTop="@dimen/title_height"
+        android:layout_weight="1"
+        android:orientation="horizontal" />
+
+
+
+        <LinearLayout
+            android:id="@+id/layout_tab"
+            android:layout_width="match_parent"
+            android:layout_height="52dip"
+            android:layout_alignParentBottom="true"
+            android:background="#1a191f"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/menubar_driver"
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dip"
+                android:background="@color/base_line_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/layout_tabbar_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/base_item_selector"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_home_tab1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:drawablePadding="3dip"
+                        android:drawableTop="@drawable/tabbar_home_selector"
+                        android:gravity="center"
+                        android:text="首页"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size12" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/layout_tabbar_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/base_item_selector"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_home_tab2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:drawablePadding="5dip"
+                        android:drawableTop="@drawable/tabbar_catalog_selector"
+                        android:gravity="center"
+                        android:text="分类"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size12" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/layout_tabbar_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/base_item_selector"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_home_tab3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:drawablePadding="5dip"
+                        android:drawableTop="@drawable/tabbar_cart_selector"
+                        android:gravity="center"
+                        android:text="购物车"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size12" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/layout_tabbar_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/base_item_selector"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_home_tab4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:drawablePadding="5dip"
+                        android:drawableTop="@drawable/tabbar_me_selector"
+                        android:gravity="center"
+                        android:text="我的"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size12" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+</RelativeLayout>

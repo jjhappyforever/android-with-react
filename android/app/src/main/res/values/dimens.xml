@@ -1,0 +1,51 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="indicator_right_padding">10.0dip</dimen>
+    <dimen name="indicator_corner_radius">12.0dip</dimen>
+    <dimen name="indicator_internal_padding">4.0dip</dimen>
+    <dimen name="header_footer_left_right_padding">24.0dip</dimen>
+    <dimen name="header_footer_top_bottom_padding">12.0dip</dimen>
+    <dimen name="title_height">48.0dip</dimen>
+    <dimen name="slidingtab_height">40.0dip</dimen>
+    <dimen name="slidingtab_underlineHeight">0.5dip</dimen>
+    <dimen name="btn_changnum_width">40.0dip</dimen>
+    <dimen name="tv_changnum_widht">40.0dip</dimen>
+    <dimen name="home_item_padding">20.0dip</dimen>
+    <dimen name="dialog_padding">20dip</dimen>
+    <dimen name="scan_product_height">50dip</dimen>
+    <dimen name="setting_padding">15.0dip</dimen>
+    <dimen name="setting_item_height">55.0dip</dimen>
+    <dimen name="changenum_height">35dip</dimen>
+    <dimen name="product_banner_height">155dip</dimen>
+    <dimen name="home_item_height">120dip</dimen>
+
+    <!-- font -->
+    <dimen name="text_size10">10.0sp</dimen>
+    <dimen name="text_size12">12.0sp</dimen>
+    <dimen name="text_size13">13.0sp</dimen>
+    <dimen name="text_size14">14.0sp</dimen>
+    <dimen name="text_size15">15.0sp</dimen>
+    <dimen name="text_size16">16.0sp</dimen>
+    <dimen name="text_size17">17.0sp</dimen>
+    <dimen name="text_size18">18.0sp</dimen>
+    <dimen name="text_size20">20.0sp</dimen>
+    <dimen name="text_size21">21.0sp</dimen>
+    <dimen name="text_size22">22.0sp</dimen>
+    <dimen name="text_size23">23.0sp</dimen>
+    <dimen name="text_size24">24.0sp</dimen>
+    <dimen name="text_size25">25.0sp</dimen>
+    <dimen name="text_size26">26.0sp</dimen>
+    <dimen name="text_size27">27.0sp</dimen>
+    <dimen name="text_size28">28.0sp</dimen>
+    <dimen name="text_size29">29.0sp</dimen>
+    <dimen name="text_size30">30.0sp</dimen>
+    <dimen name="text_size35">35.0sp</dimen>
+    <dimen name="text_size40">40.0sp</dimen>
+    <dimen name="text_size50">50.0sp</dimen>
+    <dimen name="text_size70">70.0sp</dimen>
+
+</resources>
